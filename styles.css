@@ -31,7 +31,6 @@ nav {
 .logo h1 {
     color: #2ecc71;
     font-size: 2.0rem;
-    
 }
 
 .nav-links {
@@ -326,7 +325,7 @@ footer {
 
 .blog-posts h2 {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
     color: #333;
 }
 
@@ -362,7 +361,6 @@ footer {
 
 .post-content h3 {
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
     color: #2ecc71;
 }
 
@@ -391,6 +389,7 @@ footer {
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 2rem;
 }
 
 .sidebar h3 {
@@ -414,31 +413,8 @@ footer {
     transition: color 0.3s;
 }
 
-.categories a:hover, .recent-posts a:hover {
+.recent-posts a:hover {
     color: #2ecc71;
-}
-
-.sidebar-newsletter input {
-    width: 100%;
-    padding: 0.8rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-}
-
-.sidebar-newsletter button {
-    width: 100%;
-    padding: 0.8rem;
-    background-color: #2ecc71;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.sidebar-newsletter button:hover {
-    background-color: #27ae60;
 }
 
 /* Responsive Design */
